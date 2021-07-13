@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/aaedd6c551f246708e72362cd791d6ab/artifacts
+end_time: 1626184460521
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: aaedd6c551f246708e72362cd791d6ab
+run_uuid: aaedd6c551f246708e72362cd791d6ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1626184459834
+status: 3
+tags: []
+user_id: anle

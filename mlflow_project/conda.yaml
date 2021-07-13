@@ -1,0 +1,14 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.7.10
+- pip
+- pip:
+  - mlflow==1.17.0
+  - azureml-mlflow
+  - kedro==0.17.4
+  - azureml-sdk
+  - databricks-cli==0.14.3
+  - scikit-learn==0.24.2
+  - cloudpickle==1.6.0
+name: mlflow-env

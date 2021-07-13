@@ -1,0 +1,38 @@
+#=============dataset=======================
+leads_categorical_columns:
+  [
+    "lead origin",
+    "lead source",
+    "last activity",
+    "specialization",
+    "what is your current occupation",
+    "what matters most to you in choosing a course",
+    "city",
+    "last notable activity",
+  ]
+
+leads_numeric_columns:
+  ["totalvisits", "total time spent on website", "page views per visit"]
+
+leads_response_column: converted
+
+#==============de===========================
+split_ratio: 0.7
+
+#=============model=========================
+random_forest:
+  max_depth: 3
+  n_estimators: 20
+  random_state: 2021
+
+#===========MLflow=========================
+mlflow_databricks:
+  experiment_name: /Users/anle@suncor.com/MLflow_experiments/leads
+  tracking_uri: databricks://SANDBOX # set to your server URI
+
+mlflow_local:
+  experiment_name: leads
+  tracking_uri: ./mlruns
+
+mlflow_aml:
+  experiment_name: leads
